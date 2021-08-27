@@ -25,6 +25,8 @@ const lyricsAppear = document.getElementById('lyrics');
 
 const rickAppear = document.getElementById('rick');
 
+const audioPlay = document.getElementById('audio');
+
 // set event listeners 
 buttonRoll.addEventListener('click', () => {
     nounOneSpan.textContent = nounOneInput.value;
@@ -42,7 +44,7 @@ buttonRoll.addEventListener('click', () => {
 
     rickAppear.style.visibility = 'visible';
 
-
+    audioPlay.play('audio');
 
 
 });
