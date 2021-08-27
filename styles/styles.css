@@ -58,3 +58,11 @@ footer {
     margin: 10px;
 }
 
+#rick {
+    visibility: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
