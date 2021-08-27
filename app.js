@@ -23,10 +23,12 @@ const songGoAway = document.getElementById('song');
 
 const lyricsAppear = document.getElementById('lyrics');
 
+const rickAppear = document.getElementById('rick');
+
 // set event listeners 
 buttonRoll.addEventListener('click', () => {
     nounOneSpan.textContent = nounOneInput.value;
-    pluralNounSpan.textContent = nounTwoInput.value;
+    pluralNounSpan.textContent = pluralNounInput.value;
     nounTwoSpan.textContent = nounTwoInput.value;
     verbOneSpan.textContent = verbOneInput.value;
     verbTwoSpan.textContent = verbTwoInput.value;
@@ -37,6 +39,10 @@ buttonRoll.addEventListener('click', () => {
     lyricsAppear.style.visibility = 'visible';
 
     songGoAway.style.visibility = 'hidden';
+
+    rickAppear.style.visibility = 'visible';
+
+
 
 
 });
