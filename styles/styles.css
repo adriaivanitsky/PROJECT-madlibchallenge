@@ -4,10 +4,15 @@ body {
     background-color: #FFFCFA;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    
 }
 
 main {
     padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
 }
 
 header {
@@ -39,5 +44,16 @@ footer {
 }
 
 #song {
-    display: grid;
+    display: flex;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
 }
+
+#input {
+    margin: 10px;
+    
+}
+
